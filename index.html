@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LeetMatrix | LeetCode Matrix For User</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>LeetMatrix</h1>
+        <p>Track your LeetCode progress in a clean, structured matrix.</p>
+      </header>
+      <main>
+        <section class="user-input-container">
+          <input
+            type="text"
+            name="username"
+            id="user-input"
+            placeholder="Enter your username"
+          />
+          <button id="search-btn" type="submit">Search</button>
+        </section>
+
+        <section class="stats-container">
+          <div class="progress">
+            <div class="progress-item">
+              <div class="easy-progress circle">
+                <span id="easy-label"></span>
+                <p>Easy</p>
+              </div>
+            </div>
+            <div class="progress-item">
+              <div class="medium-progress circle">
+                <span id="medium-label"></span>
+                <p>Medium</p>
+              </div>
+            </div>
+            <div class="progress-item">
+              <div class="hard-progress circle">
+                <span id="hard-label"></span>
+                <p>Hard</p>
+              </div>
+            </div>
+          </div>
+          <div class="stats-card">Find your LeetCode stats here.</div>
+        </section>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
