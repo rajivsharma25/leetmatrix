@@ -7,7 +7,6 @@ LeetMatrix is a clean and elegant web application that helps you track **LeetCod
 ## 🚀 Live Demo
 
 **[https://rajivsharma25.github.io/leetmatrix/](https://rajivsharma25.github.io/leetmatrix/)**
-*(Link will work once GitHub Pages is enabled)*
 
 ---
 
