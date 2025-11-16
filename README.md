@@ -57,29 +57,6 @@ Or simply open **index.html** in your browser.
 
 ---
 
-## 🌐 Deploying on GitHub Pages
-
-1. Go to **Settings → Pages**
-2. Under **Source**, select:
-
-   ```
-   Branch: main
-   Folder: / (root)
-   ```
-3. Click **Save**
-4. Your site will be available shortly.
-
----
-
-## 📅 Future Enhancements
-
-* Add dark/light theme toggle
-* Add global ranking & contest rating
-* Add topic-based problem breakdown
-* Add loading animation
-
----
-
 ## 👨‍💻 Developer
 
 **Rajiv Sharma**
